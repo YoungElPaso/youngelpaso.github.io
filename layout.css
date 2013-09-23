@@ -1,6 +1,7 @@
 body {
 	background: #FAFAFA;
 	font-family: arial, sans serif;
+	font-size: 13px;
 	width: 100%;
 }
 
@@ -11,6 +12,11 @@ body {
 
 img {
 	width: 100%;
+}
+
+.image-frame {
+	border: 1px #AAA solid;
+	padding: 1em;
 }
 
 #header {

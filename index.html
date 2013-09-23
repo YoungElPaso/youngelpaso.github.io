@@ -5,16 +5,20 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<title>Youngelpaso@github.io</title>
 		<link rel="stylesheet" type="text/css" href="layout.css">
+		<script type="text/javascript" src="externals/srcset-polyfill/build/srcset.js"></script>
 	</head>
 	<body>
 		<div class="column" id="header">
 			<h1>This is my new page.</h1>
 		</div>
 		<div class="column" id="main">
-			<p>We're gonna test somesrc set here too!</p>
+			<p>We're gonna test some <code>srcset</code> here too!</p>
 			<hr />
 			<h2> Here's the srcset test</h2>
-			<img src="foobar.jpg" />
+			<div class="image-frame">
+				<img src="foobar-sml.jpg" srcset="foobar-sml.jpg 480w, foobar.jpg 960w, landscape.jpg"/>
+				<p>Unfortunatley, we're just going to have to use a polyfill for now.</p>
+			</div>
 		</div>
 	</body>
 </html>
