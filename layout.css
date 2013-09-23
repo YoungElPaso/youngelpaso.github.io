@@ -1,0 +1,19 @@
+body {
+	background: #FAFAFA;
+	font-family: arial, sans serif;
+	width: 100%;
+}
+
+.column {
+	background: #FFF;
+	padding: 0.5em 1em;
+}
+
+img {
+	width: 100%;
+}
+
+#header {
+	background: #333;
+	color: #FFF;
+}
